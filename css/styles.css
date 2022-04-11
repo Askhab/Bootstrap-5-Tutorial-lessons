@@ -134,6 +134,12 @@ footer {
 
 }
 
+/* Процесс обучения */
+.learning h5 {
+  padding: 25px;
+  border: 3px solid var(--color1);
+}
+
 /* Цвета */
 .color1 {
   color: var(--color1);
