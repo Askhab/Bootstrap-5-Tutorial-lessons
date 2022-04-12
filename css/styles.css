@@ -3,8 +3,6 @@
   --color2: #52339a;
 }
 
-header,
-footer,
 section {
   padding: 100px 0;
 }
@@ -90,7 +88,7 @@ footer {
 }
 
 /* О курсе */
-.about, .shedule {
+.about, .shedule, .author, .buy {
   background-color: #eee;
 }
 
@@ -138,6 +136,26 @@ footer {
 .learning h5 {
   padding: 25px;
   border: 3px solid var(--color1);
+}
+
+/* Об авторе */
+.author {
+  padding-bottom: 0;
+}
+
+.itd_img {
+  max-width: 260px;
+}
+
+/* Отзывы */
+.rounded {
+  border-radius: 50% !important;
+  border: 3px solid var(--color1);
+}
+
+/* Подвал сайта */
+footer {
+  padding: 30px 0;
 }
 
 /* Цвета */
